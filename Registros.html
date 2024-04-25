@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+
+
+
+
+<nav>
+    <center>
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="Servicios.html">Servicios</a>
+    <a href="Registros.html">Registros</a>
+    <a href="Contactos.html">Contactos</a>
+    </center>
+</nav>
+
+
+<!--
+<h3>
+<a href="index.html">Inicio</a>
+<a href="nosotros.html">Nosotros</a>
+<a href="Servicios.html">Servicios</a>
+<a href="Registros.html">Registros</a>
+<a href="Contactos.html">Contactos</a>
+</h3>
+-->
+
+<body>
+    <h2></h2>
+
+    
+    <form class="Formdatos" action="resutado.html" method="post" id="Formulario">
+        <h1 class="titulo">Mi Registro</h1>
+        <br>
+        <br>
+    <class="Entradas">
+        <!--Input para nombre-->
+        <label for="nombre">Nombre:</label>
+        <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <label for="apellido">Apellido:</label>
+        <input class="inputs" name="apellido" id="apellido">
+        
+        <!--Input para genero-->
+        <label for="Genero">Genero:</label>
+        <label for="Hombre">Hombre</label>
+        <input type="radio" name="Hombre" id="Hombre">
+        <label for="Mujer">Mujer</label>
+        <input class="Genero" type="radio" name="Hombre" id="Hombre">
+
+        <!--Input para el email-->
+        <label for="email">Email:</label>
+        <input class="inputs" type="email" name="email" id="email">
+
+        <label for="fecha">Fecha:</label>
+        <input class="inputs" type="date" name="fecha" id="fecha">
+
+        <label for="direccion">Direccion:</label>
+
+        <textarea class="inputs" name="label" id="direccion" cols="30" rows="10"></textarea>
+
+        <input class="enviar" type="submit" value="Subir">
+</form>
+
+
+
+
+</body>
+</html>

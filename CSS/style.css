@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Formdatos{
+    width: 400px;
+    padding: 50px;
+    margin: auto; 
+    background-color: rgb(172, 186, 221);
+    border-radius: 20px;
+    margin-top: 50px;
+    border: 6px solid rgb(113, 171, 238);
+    
+}
+
+.titulo{
+    
+    font-size: 35px;
+    color: rgb(14, 6, 6);
+}
+
+.inputs{
+    padding: 7px;
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(105, 125, 190);
+    border: 6px solid rgb(51, 63, 94);
+}
+
+.enviar{
+    padding: 15px;
+    border-radius: 10px;
+    border: 5px solid rgb(51, 63, 94);
+    background-color: rgb(105, 125, 190);
+    margin-left: 155px;
+    margin-top: 20px;
+}
